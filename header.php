@@ -12,14 +12,13 @@
             'tag'       =>  _t('标签 %s 下的文章'),
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
-    <link href="https://cdn.bootcss.com/mdui/0.4.1/css/mdui.min.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('css/main.css'); ?>">
+    <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.1/css/mdui.min.css">
     <link href="<?php $this->options->themeUrl('css/new.css'); ?>" rel="stylesheet">
-    
-    <script src="https://cdn.bootcss.com/mdui/0.4.1/js/mdui.min.js"></script>
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+    <script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.1/js/mdui.min.js"></script>
+    <script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.loli.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
     <script src="<?php $this->options->themeUrl('main.js'); ?>" type="text/javascript"></script>
     <?php $this->header(); ?>
 </head>

@@ -278,7 +278,7 @@ a {text-decoration: none;}
 }
 .blog-user-data {
     width: 85%;
-    min-height: 160px;
+    min-height: 150px;
     box-shadow: 0 1px 7px -1px rgba(0,0,0,.15);
     margin: 0 auto;
     margin-bottom: 18px;

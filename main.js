@@ -67,6 +67,11 @@ window.onload = function () {
 //     },1000);
 //     SNc = true;
 // }
+function an_Move(obj, x, y, ms) {
+    e = document.getElementById(obj);
+    e.style.transition = "-webkit-transform " + ms + " ease-out";
+    e.style.webkitTransform = "translate(" + x + "," + y + ") scale(1)";
+}
 function scrollSidebar(){
     $('.backPageTop').click(function () {
         $('html,body').stop(true,false).animate({scrollTop : '0px'},800);

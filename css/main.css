@@ -8,6 +8,7 @@ body {
     height: 100%;
     box-sizing: border-box;
     padding-top: 380px;
+    background: #fefefe;
 }
     * {
         padding: 0;
@@ -380,7 +381,7 @@ a {text-decoration: none;}
     z-index: 0;
 }
 .page-card:hover {
-    box-shadow: 0 6px 15px -2px rgba(0,0,0,.1);
+    box-shadow: 0 6px 15px -2px rgba(0,0,0,.2);
 }
 .page-title {
     position: relative;
@@ -1261,9 +1262,9 @@ a {text-decoration: none;}
     .blog-user-data {
         width: 100%;
         padding: 12px 18px;
-        min-height: auto;
-        margin-bottom: 14px;
-        box-shadow: 0 1px 5px -1px rgba(0,0,0,.15);
+        min-height: 130px;
+        margin-bottom: 10px;
+        box-shadow: 0 0 8px -2px rgba(0,0,0,.18);
     }
     .blog-copyright {display: none}
     .ab-user-url {
@@ -1351,7 +1352,7 @@ a {text-decoration: none;}
     }
 
     .addComment {
-        padding: 10px 22px;
+        padding: 14px 15px;
     }
     #comments {
         padding: 0 18px;

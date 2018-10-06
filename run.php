@@ -7,7 +7,7 @@
         fragment : '.cardList',
         timeout  : '999999',
     });
-    $(document).pjax('.PnP-item a,.linkMenu a,.indexCategoryCard a,.tag-item a,#wsTitle,.barItemBindex,.switch-list a,.blurText a,.ar_indexTitle a,.page-title > a','.mdui-container',{
+    $(document).pjax('.PnP-item a,.linkMenu a,.indexCategoryCard a,.tag-item a,#wsTitle,.barItemBindex,.switch-list a,.blurText a,.ar_indexTitle a,.page-title > a,.Get-newCom a','.mdui-container',{
         fragment : '.mdui-container',
         timeout  : '999999'
     });

@@ -1,12 +1,12 @@
 <?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
-<div class="mdui-divider" style="margin-top: 32px" id="footerTborder"></div>
+<div class="mdui-divider" id="footerTborder"></div>
 <footer>
     <div>
         <span><i class="fa fa-code"></i>由强力的 <a href="http://typecho.org/">Typecho</a> 驱动</span>
         <span><i class="fa fa-pencil-square-o"></i>Theme : typecho-theme-illi</span>
     </div>
-    <div>Powered by Void ©2018-2018</div>
+    <div><?php Typecho_Widget::widget('Widget_Options')->copyright(); ?></div>
 </footer>
 <script>
     hm = $('.header-menu');

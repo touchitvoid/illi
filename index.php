@@ -72,7 +72,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                             <h1><?php $stat->categoriesNum() ?></h1><span>/</span><p>分类</p>
                         </div>
                     </div>
-                    <div class="mdui-divider"></div>
+                    <div class="mdui-divider xs-hidden"></div>
                     <div class="cms">
                         <div class="app">
                             <div class="mdui-row" id="userDataControl">

@@ -85,6 +85,15 @@
 .pf_post_list li {line-height: 1.55;color: rgba(0, 0, 0, .65)}
 .pf_mon_list li a {color: #8ec5fc;font-weight: 600;letter-spacing: 1px}
 
+    #footerTborder {margin-top: 32px}
+
+
+    /* old change */
+    .an {
+        box-shadow: 0 -15px 45px rgba(0, 0, 0, .2) inset;
+    }
+
+
 
 @media screen and (max-width : 600px){
     .indexCategoryBox::-webkit-scrollbar {
@@ -96,11 +105,26 @@
     body {padding-top: 0}
     .blogBody {padding-top: 0}
     .sql-data {margin-top: 0}
-    .an {position: relative}
+    .an {position: relative;height: 300px}
     .cardList {padding: 2px 0}
     .nP-iImg {height: 72px;}
     .start {box-shadow: none !important;border-radius: 0 !important}
     .blogBody .page-title {
         opacity: 0;
     }
+    .sql-data-item {min-height: auto;height: 85px;}
+    .page-card {min-height: 210px;margin: 12px 0}
+    .bar {transform: translate(-45px, 0px);}
+    .cms {margin-top: 0}
+
+    .page-file-body {box-shadow: none}
+    
+    .mask-title {font-size: 23px}
+
+    .icc-item {height: 83px;border-radius: 2px}
+
+    #footerTborder {margin-top: 14px}
+    .xs-hidden {display: none}
+
+    .indexCategoryBox {padding: 4px 8px}
 }

@@ -19,6 +19,8 @@ function themeConfig($form) {
     $form->addInput($pay);
     $icon = new Typecho_Widget_Helper_Form_Element_Text('icon', null, null, _t('头像'), _t('填入外部连接更新'));
     $form->addInput($icon);
+    $copyright = new Typecho_Widget_Helper_Form_Element_Text('copyright', null, null, _t('copyright信息'), _t('这种事情自己随意就好呀'));
+    $form->addInput($copyright);
 }
 function showThumbnail($widget)
 {

@@ -21,7 +21,7 @@
             m1 = document.documentElement.scrollTop || document.body.scrollTop; //滚动的值
             m2 = document.documentElement.scrollTop || document.body.scrollTop; //对比时间的值
             if (m2 == m1) {
-                $('.header-menu').css({transform : 'translate(0,0)'});
+                $('.header-menu').css({transform : 'translate(0,0)'})
                 $('.bar').css({transform : 'translate(0,0)'})
                 $('.header-menu').css({transform : 'translate(0,0)'})
             }

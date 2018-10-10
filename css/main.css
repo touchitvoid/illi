@@ -872,10 +872,16 @@ a {text-decoration: none;}
     color: rgba(0,0,0,.45);
 }
 .page img {max-width: 100%;margin: 14px 0;border-radius: 5px;border: 5px solid white;box-shadow: 0 0 3px rgba(0,0,0,.15);box-sizing: border-box;max-height: 800px}
-.page p {line-height: 1.5}
+.page p {line-height: 1.55;margin: 2px 0 4px 0}
+.page h1,h3,h4,h5,h6 {line-height: 2.2}
+.page a {
+    font-weight: bold;
+    color: rgb(57, 144, 224)
+}
 .page ul,ol {
     line-height: 1.65;
     font-size: 16px;
+    margin-left: 8px
 }
 .page ol {padding-left: 36px}
 .page ul li {position: relative;padding-left: 16px;list-style: none;}
@@ -892,8 +898,26 @@ a {text-decoration: none;}
     color: mediumpurple;
  }
 .page hr {height:1px;border:none;border-top:1px solid rgba(0,0,0,.15)}
-
-
+.page pre {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+    *white-space: normal !important;
+}
+.page code {
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 微软雅黑;
+    color: rgba(0, 0, 0, .7);
+    box-sizing: border-box;
+    padding: 8px 0 8px 12px;
+    border-left: 3px solid lightskyblue;
+    line-height: 1.56;
+    display: block;
+    background: rgba(0, 0, 0, .03);
+    margin : 5px 0 7px 0;
+    border-radius: 3px;
+    font-weight: 400;
+}
 .bar {
     width: 40px;
     height: 250px;

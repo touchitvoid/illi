@@ -1,6 +1,8 @@
 # illi
 A 二次元式 Typecho theme
 
+[主题预览链接](http://icry.info/)
+
 Usage
 
 主题命名illi扔到themes文件夹下，然后到后台启用.

@@ -873,7 +873,11 @@ a {text-decoration: none;}
 }
 .page img {max-width: 100%;margin: 14px 0;border-radius: 5px;border: 5px solid white;box-shadow: 0 0 3px rgba(0,0,0,.15);box-sizing: border-box;max-height: 800px}
 .page p {line-height: 1.55;margin: 2px 0 4px 0}
-.page h1,h3,h4,h5,h6 {line-height: 2.2}
+.post-page-content > h1,
+.post-page-content > h3,
+.post-page-content > h4,
+.post-page-content > h5,
+.post-page-content > h6 {line-height: 2.1}
 .page a {
     font-weight: bold;
     color: rgb(57, 144, 224)
@@ -1055,9 +1059,9 @@ a {text-decoration: none;}
     font-weight: 400;
 }
 .newComment-data > p {
-    margin-top: 9px;
     font-size: 13px;
-    color: rgba(0,0,0,.48);
+    color: rgba(0, 0, 0, .48);
+    margin-top: 9px;
 }
 .newComArrow {
     position: absolute;
